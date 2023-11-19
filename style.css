@@ -9,15 +9,15 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 100px;
-    padding: 0em 15vw;
+    height: 80px;
+    padding: 0em 18vw;
     background-color: #1f2937;
 }
 
 .logo {
     color: #F9F8F8;
     font-size: 24px;
-    font-weight: bold;
+    font-weight: 600;
 }
 
 .nav-items a {
@@ -25,4 +25,55 @@ nav {
     font-size: 18px;
     text-decoration: none;
     padding: 0 16px;
+}
+
+.hero {
+    background-color: #1F2937;
+}
+
+.hero-container {
+    display: flex;
+    align-items: stretch;
+    padding: 5em 18vw;
+}
+
+.hero-left {
+    flex: 1;
+    padding-right: 8px;
+}
+
+.hero-right {
+    flex: 1;
+    padding-left: 8px;
+}
+
+.hero-left h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.hero-left p {
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 0 0 8px 0;
+}
+
+.hero-left button {
+    padding: 0.5rem 3rem;
+    border: none;
+    border-radius: 8px;
+    color: #F9FAF8;
+    font-size: 18px;
+    background-color: #3882F6;
+}
+
+.img-placeholder {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    color: #F9FAF8;
+    background-color: #656666;
+    justify-content: center;
+    align-items: center;
 }
