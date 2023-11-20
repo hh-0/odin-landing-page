@@ -77,3 +77,35 @@ nav {
     justify-content: center;
     align-items: center;
 }
+
+.information {
+    padding: 2em 20vw;
+}
+
+.information-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.information-container {
+    display: flex;
+    justify-content: center;
+}
+
+.information-item {
+    padding: 36px 36px;
+}
+
+.info-preview {
+    width: 180px;
+    height: 180px;
+    border: 3px solid #3882F6;
+    border-radius: 20px;
+}
+
+.info-description {
+    padding: 8px 0px;
+    width: 180px;
+}
